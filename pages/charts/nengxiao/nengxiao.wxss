@@ -1,0 +1,66 @@
+.container{
+  text-align: center;
+  font-size: 30rpx ;
+
+
+}
+.k1{
+  width: 100%;
+  height: 580px;
+  text-align: center;
+  font-size: 30rpx ;
+}
+ec-canvas {
+  width: 100%;
+  height: 360px;
+}
+
+.s1{
+  font-size: 40rpx
+}
+.screen{
+  background-color: rgb(228, 35, 35);
+  text-align: right;
+  width: 650rpx;
+  height: 150rpx;
+  line-height: 150rpx;
+  padding: 0 20rpx;
+  margin: 30rpx;
+  border: 1px solid rgb(30, 147, 243);
+  border-radius: 3px;
+
+}
+.btn{
+  width: 70%;
+  background-color: #FFCC00;
+  color: #FFF;
+  height: 100px
+
+}
+
+.qq{
+  width: 100%;
+  height: 360px;
+}
+
+.asdf
+{
+  width: 100%;
+  height: 100%;
+}
+.title{
+  text-align: center;
+  position: relative;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+}
+
+.back-btn{
+  position: absolute;
+  left: 20rpx;
+  top: 0;
+}
+text{
+  float: center;
+}
+  

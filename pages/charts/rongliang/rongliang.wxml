@@ -1,0 +1,72 @@
+<view class="container">
+    <canvas canvas-id="radarCanvas" class="canvas" bindtouchstart="touchHandler"></canvas>
+</view>
+<view class="cbn">
+     <!-- 分割线 -->
+  <view class="divLine"></view>
+</view>
+<view class="mn">UPS容量管理</view>
+<view class="connr">
+    <canvas canvas-id="pieCanvas" class="canvas" style="height:300px" bindtouchstart="touchHandler"></canvas>
+</view>
+<view class="cbbn">
+     <!-- 分割线 -->
+  <view class="divLine"></view>
+</view>
+<view class="mn">制冷量容量管理</view>
+<view class="bn">
+<view>机房名称：</view><view class="qq">主机房</view></view>
+<view class="zz">
+<view>空调品牌：</view><view class="ww">艾默生</view></view>
+<view class="xx">
+<view>空调型号：</view><view class="ee">LibertPEX系列</view></view>
+<view class="dd">
+<view>空调编号：</view><view class="rr">KT01</view></view>
+<view class="cc">
+<view>额定功率：</view><view class="tt">10000</view><view>W</view></view>
+<view class="vv">
+<view>实际总需要制冷量：</view><view class="yy">8500</view><view>W</view></view>
+<view class="bb">
+<view>制冷量剩余率：</view><view class="uu">15</view><view>%</view></view>
+<view class="cbcbn">
+     <!-- 分割线 -->
+  <view class="divLine"></view>
+</view>
+<view class="mn">物理空间容量管理</view>
+<view class="bn">
+<view>设备数量：</view><view class="qw">5</view><view>台</view></view>
+<view class="zz">
+<view>空间总容量：</view><view class="wq">35</view><view>W</view></view>
+<view class="xx">
+<view>空间已用容量：</view><view class="er">10</view><view>W</view></view>
+<view class="dd">
+<view>空间剩余容量：</view><view class="re">25</view><view>W</view></view>
+<view class="cc">
+<view>PDU容量：</view><view class="ty">10000</view><view>W</view></view>
+<view class="vv">
+<view>PDU已用容量：</view><view class="yt">550</view><view>W</view></view>
+<view class="bb">
+<view>PDU剩余容量：</view><view class="yu">9450</view><view>W</view></view>
+<view class="cbcbn">
+     <!-- 分割线 -->
+  <view class="divLine"></view>
+</view>
+<view class="mn">机柜空间容量利用率</view>
+<view class="convnr">
+    <canvas canvas-id="pieCanvas1" class="canvas" style="height:300px" bindtouchstart="touchHandler"></canvas>
+</view>
+<view class="cbcbn">
+     <!-- 分割线 -->
+  <view class="divLine"></view>
+</view>
+<view class="mn">PDU容量利用率</view>
+<view class="convnnr">
+    <canvas canvas-id="pieCanvas2" class="canvas" style="height:300px" bindtouchstart="touchHandler"></canvas>
+</view>
+
+
+
+
+
+
+
