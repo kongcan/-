@@ -1,0 +1,19 @@
+    <canvas canvas-id="ringCanvas" class="canvas" bindtouchstart="touchHandler"></canvas>
+<view class="table">
+  <view class="tr bg-w">
+    <view class="th">种类</view>
+    <view class="th">数量</view>
+  </view>
+  <block wx:for="{{listData}}" wx:key="{{code}}">
+    <view class="tr bg-g" wx:if="{{index % 2 == 0}}">
+      <view class="td">{{item.name}}</view>
+      <view class="td">{{item.data}}</view>
+    </view>
+    <view class="tr" wx:else>
+      <view class="td">{{item.name}}</view>
+      <view class="td">{{item.data}}</view>
+    </view>
+  </block>
+</view>
+
+

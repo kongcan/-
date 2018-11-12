@@ -1,0 +1,54 @@
+{
+  "pages":[
+        "pages/login/login",
+        
+    "pages/index/index",
+    "pages/charts/rongliang/rongliang",
+    "pages/charts/jiankong/jiankong",
+    "pages/charts/zichan/zichan",
+    "pages/charts/jinggao/jinggao",
+    "pages/wo/wo",
+    "pages/charts/nengxiao/nengxiao",
+            
+        
+    "pages/home/home", 
+    "pages/charts/column/column"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#d1a87a",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "img/20.png",
+        "selectedIconPath": "img/23.png"
+      },
+      {
+        "pagePath": "pages/charts/jinggao/jinggao",
+        "text": "警告",
+        "iconPath": "img/12.png",
+        "selectedIconPath": "img/13.png"
+      },
+      {
+        "pagePath": "pages/wo/wo",
+        "text": "我",
+        "iconPath": "img/22.png",
+        "selectedIconPath": "img/21.png"
+      }
+    ]
+  }
+  
+  
+   
+  
+  
+  
+}

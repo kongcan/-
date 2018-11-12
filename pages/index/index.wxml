@@ -1,0 +1,51 @@
+<!--index.wxml-->
+
+<!-- 轮播图  -->
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" >
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+<view class="a1">基础设施管理系统</view>
+
+<!-- 导航区 -->
+<view class='nav'>
+    <view class='conlumn'>
+        <navigator url="/pages/charts/jiankong/jiankong" hover-class='none'>
+            <image src='../../img/shop-bg.png' class='nav-pic'>
+                <view class='icon-wrap'>
+                    <image src='../../img/15.png'></image>
+                    <view>监控管理</view>
+                </view>
+            </image>
+        </navigator>
+        <navigator url='/pages/charts/nengxiao/nengxiao' hover-class='none'>
+            <image src='../../img/activity-bg.png' class='nav-pic'>
+                <view class='icon-wrap'>
+                    <image src='../../img/17.png'></image>
+                    <view>能效管理</view>
+                </view>
+            </image>
+        </navigator>
+    </view>
+    <view class='conlumn'>
+        <navigator url='/pages/charts/zichan/zichan' hover-class='none'>
+            <image src='../../img/home-bg.png' class='nav-pic'>
+                <view class='icon-wrap'>
+                    <image src='../../img/14.png'></image>
+                    <view>资产管理</view>
+                </view>
+            </image>
+        </navigator>
+        <navigator url='/pages/charts/rongliang/rongliang' hover-class='none'>
+            <image src='../../img/online-bg.png' class='nav-pic'>
+                <view class='icon-wrap'>
+                    <image src='../../img/16.png'></image>
+                    <view>容量管理</view>
+                </view>
+            </image>
+        </navigator>
+    </view>
+</view>

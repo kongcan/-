@@ -1,0 +1,138 @@
+/* pages/charts/radar/radar.wxss */
+text{
+  float: center;
+}
+.container{
+  width: 100%;
+  height: 220px
+}
+.mn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.divLine{
+ background: #E0E3DA;
+ width: 100%;
+ height: 5rpx;
+}
+.bn{
+  display: flex;
+  flex-direction:row;
+justify-content: flex-start
+}
+.zz{
+  display: flex;
+  flex-direction:row;
+justify-content: flex-start
+}
+.cc{
+  display: flex;
+  flex-direction:row;
+justify-content: flex-start
+}
+.xx{
+  display: flex;
+  flex-direction:row;
+justify-content: flex-start
+}
+.vv{
+  display: flex;
+  flex-direction:row;
+justify-content: flex-start
+}
+.bb{
+  display: flex;
+  flex-direction:row;
+justify-content: flex-start
+}
+.dd{
+    display: flex;
+  flex-direction:row;
+justify-content: flex-start
+}
+.qq{
+  background: rgb(7, 146, 238);
+  width: 40%;
+  display: flex;
+  justify-content: flex-end
+}
+.ww{
+background: rgb(245, 238, 239);
+width: 40%;
+  display: flex;
+  justify-content: flex-end
+}
+.ee{
+background: rgb(7, 146, 238);
+width: 40%;
+  display: flex;
+  justify-content: flex-end
+}
+.rr{
+background: rgb(245, 238, 239);
+width: 40%;
+  display: flex;
+  justify-content: flex-end
+
+}
+.tt{
+background: rgb(7, 146, 238);
+width: 40%;
+  display: flex;
+  justify-content: flex-end
+}
+.yy{
+background: rgb(245, 238, 239);
+width: 20%;
+  display: flex;
+  justify-content: flex-end
+}
+.uu{
+background: rgb(7, 146, 238);
+width: 30%;
+  display: flex;
+  justify-content: flex-end
+}
+.qw{
+background: rgb(7, 146, 238);
+width: 40%;
+  display: flex;
+  justify-content: flex-end
+}
+.wq{
+background: rgb(245, 238, 239);
+width: 35%;
+  display: flex;
+  justify-content: flex-end
+}
+.er{
+background: rgb(7, 146, 238);
+width: 30%;
+  display: flex;
+  justify-content: flex-end
+}
+.re{
+background: rgb(245, 238, 239);
+width: 30%;
+  display: flex;
+  justify-content: flex-end
+}
+.ty{
+background: rgb(7, 146, 238);
+width: 40%;
+  display: flex;
+  justify-content: flex-end
+}
+.yt{
+background: rgb(245, 238, 239);
+width: 30%;
+  display: flex;
+  justify-content: flex-end
+}
+.yu{
+background: rgb(7, 146, 238);
+width: 30%;
+  display: flex;
+  justify-content: flex-end
+}
